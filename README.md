@@ -14,7 +14,7 @@ To mitigate the risk posed by GGL, gradient quantization is proposed as a defens
 
 By quantizing gradients, the fine-grained details that could potentially leak sensitive information about the training data are obfuscated. As a result, gradient quantization serves as an effective defense against GGL, bolstering the privacy and security of FL systems.
 
-## Conclusion
+## Conclusion and Result
 
 Generative Gradient Leakage (GGL) poses a serious threat to the privacy of federated learning systems, allowing adversaries to infer sensitive information from shared gradients. To combat this threat, gradient quantization provides a robust defense mechanism by reducing the precision of gradients and mitigating the risk of data leakage. By adopting such defensive strategies, FL systems can enhance their resilience against privacy attacks and safeguard the confidentiality of sensitive data.
 
